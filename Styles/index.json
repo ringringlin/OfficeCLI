@@ -1,0 +1,1289 @@
+{
+  "schema_version": 1,
+  "total_styles": 51,
+  "palettes": {
+    "bw": 4,
+    "dark": 19,
+    "light": 11,
+    "mixed": 4,
+    "vivid": 5,
+    "warm": 8
+  },
+  "styles": [
+    {
+      "id": "bw--brutalist-raw",
+      "name": "Brutalism",
+      "heading": "Brutalist Raw — Brutalism",
+      "palette": "bw",
+      "best_for": [
+        "Avant-garde art exhibitions",
+        "experimental design",
+        "independent brands",
+        "anti-traditional contexts"
+      ],
+      "best_for_text": "Avant-garde art exhibitions, experimental design, independent brands, anti-traditional contexts",
+      "mood": [
+        "Rebellious",
+        "rough",
+        "impactful",
+        "raw"
+      ],
+      "mood_text": "Rebellious, rough, impactful, raw",
+      "tone": "Black-white-red three colors",
+      "style_md": "Styles/bw--brutalist-raw/style.md",
+      "build_script": "Styles/bw--brutalist-raw/build.sh",
+      "pptx_files": [
+        "Styles/bw--brutalist-raw/bw__brutalist_raw.pptx"
+      ]
+    },
+    {
+      "id": "bw--mono-line",
+      "name": "Minimalist Lines",
+      "heading": "01-mono-line — Minimalist Lines",
+      "palette": "bw",
+      "best_for": [
+        "Minimalist business",
+        "academic reports",
+        "consulting proposals"
+      ],
+      "best_for_text": "Minimalist business, academic reports, consulting proposals",
+      "mood": [
+        "Calm",
+        "restrained",
+        "professional"
+      ],
+      "mood_text": "Calm, restrained, professional",
+      "tone": "Pure black-white + mid-gray accents",
+      "style_md": "Styles/bw--mono-line/style.md",
+      "build_script": "Styles/bw--mono-line/build.sh",
+      "pptx_files": [
+        "Styles/bw--mono-line/bw__mono_line.pptx"
+      ]
+    },
+    {
+      "id": "bw--swiss-bauhaus",
+      "name": "Swiss Bauhaus",
+      "heading": "Swiss Bauhaus — Swiss Bauhaus",
+      "palette": "bw",
+      "best_for": [
+        "Design agencies",
+        "architectural firms",
+        "art exhibitions",
+        "brand design"
+      ],
+      "best_for_text": "Design agencies, architectural firms, art exhibitions, brand design",
+      "mood": [
+        "Rational",
+        "rigorous",
+        "classic",
+        "restrained"
+      ],
+      "mood_text": "Rational, rigorous, classic, restrained",
+      "tone": "Red-black-white three colors",
+      "style_md": "Styles/bw--swiss-bauhaus/style.md",
+      "build_script": "Styles/bw--swiss-bauhaus/build.sh",
+      "pptx_files": [
+        "Styles/bw--swiss-bauhaus/bw__swiss_bauhaus.pptx"
+      ]
+    },
+    {
+      "id": "bw--swiss-system",
+      "name": "Pure Black and Red",
+      "heading": "Swiss System — Pure Black and Red",
+      "palette": "bw",
+      "best_for": [
+        "Corporate",
+        "finance",
+        "consulting",
+        "high-end professional services"
+      ],
+      "best_for_text": "Corporate, finance, consulting, high-end professional services",
+      "mood": [
+        "Clean",
+        "systematic",
+        "bold",
+        "Swiss design"
+      ],
+      "mood_text": "Clean, systematic, bold, Swiss design",
+      "tone": "White with black and red accents",
+      "style_md": "Styles/bw--swiss-system/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "dark--architectural-plan",
+      "name": "Architectural Plan",
+      "heading": "architectural-plan — Architectural Plan",
+      "palette": "dark",
+      "best_for": [
+        "Architectural design",
+        "business plans",
+        "real estate development"
+      ],
+      "best_for_text": "Architectural design, business plans, real estate development",
+      "mood": [
+        "Professional",
+        "structured",
+        "architectural"
+      ],
+      "mood_text": "Professional, structured, architectural",
+      "tone": "Dark blue-gray background + light blue panels + gold accents",
+      "style_md": "Styles/dark--architectural-plan/style.md",
+      "build_script": "Styles/dark--architectural-plan/build.sh",
+      "pptx_files": [
+        "Styles/dark--architectural-plan/dark__architectural_plan.pptx"
+      ]
+    },
+    {
+      "id": "dark--aurora-softedge",
+      "name": "Design Portfolio",
+      "heading": "Aurora Softedge — Design Portfolio",
+      "palette": "dark",
+      "best_for": [
+        "Design portfolios",
+        "creative showcases",
+        "art galleries"
+      ],
+      "best_for_text": "Design portfolios, creative showcases, art galleries",
+      "mood": [
+        "Aurora-like",
+        "dreamy",
+        "artistic",
+        "mysterious"
+      ],
+      "mood_text": "Aurora-like, dreamy, artistic, mysterious",
+      "tone": "Dark with soft aurora colors",
+      "style_md": "Styles/dark--aurora-softedge/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "dark--blueprint-grid",
+      "name": "Engineering Blueprint Grid",
+      "heading": "S15-blueprint-grid — Engineering Blueprint Grid",
+      "palette": "dark",
+      "best_for": [
+        "Technical planning",
+        "engineering blueprints",
+        "system architecture"
+      ],
+      "best_for_text": "Technical planning, engineering blueprints, system architecture",
+      "mood": [
+        "Precise",
+        "professional",
+        "engineering-oriented"
+      ],
+      "mood_text": "Precise, professional, engineering-oriented",
+      "tone": "Deep blue + white grid + gold accents",
+      "style_md": "Styles/dark--blueprint-grid/style.md",
+      "build_script": "Styles/dark--blueprint-grid/build.sh",
+      "pptx_files": [
+        "Styles/dark--blueprint-grid/dark__blueprint_grid.pptx"
+      ]
+    },
+    {
+      "id": "dark--circle-digital",
+      "name": "Dark Cool Digital Agency",
+      "heading": "circle-digital — Dark Cool Digital Agency",
+      "palette": "dark",
+      "best_for": [
+        "Digital marketing",
+        "creative agencies",
+        "tech companies"
+      ],
+      "best_for_text": "Digital marketing, creative agencies, tech companies",
+      "mood": [
+        "Modern",
+        "dark-cool",
+        "digital"
+      ],
+      "mood_text": "Modern, dark-cool, digital",
+      "tone": "Near-black background + dark gray card layers + neon lime accents",
+      "style_md": "Styles/dark--circle-digital/style.md",
+      "build_script": "Styles/dark--circle-digital/build.sh",
+      "pptx_files": [
+        "Styles/dark--circle-digital/dark__circle_digital.pptx"
+      ]
+    },
+    {
+      "id": "dark--cosmic-neon",
+      "name": "Sci-Fi Time Travel",
+      "heading": "Cosmic Neon — Sci-Fi Time Travel",
+      "palette": "dark",
+      "best_for": [
+        "Science talks",
+        "futuristic topics",
+        "physics presentations",
+        "cosmic themes"
+      ],
+      "best_for_text": "Science talks, futuristic topics, physics presentations, cosmic themes",
+      "mood": [
+        "Sci-fi",
+        "mysterious",
+        "futuristic",
+        "neon"
+      ],
+      "mood_text": "Sci-fi, mysterious, futuristic, neon",
+      "tone": "Near-black with purple and cyan neon",
+      "style_md": "Styles/dark--cosmic-neon/style.md",
+      "build_script": "Styles/dark--cosmic-neon/build.sh",
+      "pptx_files": [
+        "Styles/dark--cosmic-neon/dark__cosmic_neon.pptx"
+      ]
+    },
+    {
+      "id": "dark--cyber-future",
+      "name": "Cyberpunk 2050",
+      "heading": "Cyber Future — Cyberpunk 2050",
+      "palette": "dark",
+      "best_for": [
+        "Futuristic topics",
+        "tech vision",
+        "cyberpunk aesthetics",
+        "AI",
+        "robotics presentations"
+      ],
+      "best_for_text": "Futuristic topics, tech vision, cyberpunk aesthetics, AI/robotics presentations",
+      "mood": [
+        "Futuristic",
+        "cyberpunk",
+        "immersive",
+        "sci-fi"
+      ],
+      "mood_text": "Futuristic, cyberpunk, immersive, sci-fi",
+      "tone": "Near-black with electric cyan and teal",
+      "style_md": "Styles/dark--cyber-future/style.md",
+      "build_script": "Styles/dark--cyber-future/build.sh",
+      "pptx_files": [
+        "Styles/dark--cyber-future/dark__cyber_future.pptx"
+      ]
+    },
+    {
+      "id": "dark--diagonal-cut",
+      "name": "Industrial Diagonal Cut",
+      "heading": "09 Diagonal Cut — Industrial Diagonal Cut",
+      "palette": "dark",
+      "best_for": [
+        "Industrial",
+        "engineering",
+        "architecture",
+        "manufacturing"
+      ],
+      "best_for_text": "Industrial, engineering, architecture, manufacturing",
+      "mood": [
+        "Rugged",
+        "powerful",
+        "industrial",
+        "bold"
+      ],
+      "mood_text": "Rugged, powerful, industrial, bold",
+      "tone": "Dark background, high-contrast warm accent colors",
+      "style_md": "Styles/dark--diagonal-cut/style.md",
+      "build_script": "Styles/dark--diagonal-cut/build.sh",
+      "pptx_files": [
+        "Styles/dark--diagonal-cut/dark__diagonal_cut.pptx"
+      ]
+    },
+    {
+      "id": "dark--editorial-story",
+      "name": "Editorial Magazine Story",
+      "heading": "06-editorial-story — Editorial Magazine Story",
+      "palette": "dark",
+      "best_for": [
+        "Storytelling",
+        "brand stories",
+        "editorial magazines",
+        "content publishing"
+      ],
+      "best_for_text": "Storytelling, brand stories, editorial magazines, content publishing",
+      "mood": [
+        "Professional",
+        "narrative",
+        "literary",
+        "premium",
+        "media"
+      ],
+      "mood_text": "Professional, narrative, literary, premium, media",
+      "tone": "Cool tones, low saturation, high contrast",
+      "style_md": "Styles/dark--editorial-story/style.md",
+      "build_script": "Styles/dark--editorial-story/build.sh",
+      "pptx_files": [
+        "Styles/dark--editorial-story/dark__editorial_story.pptx"
+      ]
+    },
+    {
+      "id": "dark--investor-pitch",
+      "name": "Investor Pitch Professional",
+      "heading": "08-investor-pitch — Investor Pitch Professional",
+      "palette": "dark",
+      "best_for": [
+        "Investor pitches",
+        "fundraising presentations",
+        "business plans",
+        "startup showcases"
+      ],
+      "best_for_text": "Investor pitches, fundraising presentations, business plans, startup showcases",
+      "mood": [
+        "Professional",
+        "trustworthy",
+        "stable",
+        "progressive"
+      ],
+      "mood_text": "Professional, trustworthy, stable, progressive",
+      "tone": "Dark tones, cool colors, professional blue-red pairing",
+      "style_md": "Styles/dark--investor-pitch/style.md",
+      "build_script": "Styles/dark--investor-pitch/build.sh",
+      "pptx_files": [
+        "Styles/dark--investor-pitch/template.pptx"
+      ]
+    },
+    {
+      "id": "dark--liquid-flow",
+      "name": "Fluid Light Effects",
+      "heading": "Liquid Flow — Fluid Light Effects",
+      "palette": "dark",
+      "best_for": [
+        "Brand visual upgrade",
+        "creative launches",
+        "fashion showcases",
+        "premium products"
+      ],
+      "best_for_text": "Brand visual upgrade, creative launches, fashion showcases, premium products",
+      "mood": [
+        "Flowing",
+        "dreamy",
+        "premium",
+        "avant-garde"
+      ],
+      "mood_text": "Flowing, dreamy, premium, avant-garde",
+      "tone": "Dark tones, multicolor gradient light effects",
+      "style_md": "Styles/dark--liquid-flow/style.md",
+      "build_script": "Styles/dark--liquid-flow/build.sh",
+      "pptx_files": [
+        "Styles/dark--liquid-flow/dark__liquid_flow.pptx"
+      ]
+    },
+    {
+      "id": "dark--luxury-minimal",
+      "name": "Black & Gold Premium",
+      "heading": "Luxury Minimal — Black & Gold Premium",
+      "palette": "dark",
+      "best_for": [
+        "Luxury brands",
+        "premium product launches",
+        "high-end corporate presentations"
+      ],
+      "best_for_text": "Luxury brands, premium product launches, high-end corporate presentations",
+      "mood": [
+        "Luxurious",
+        "minimalist",
+        "sophisticated",
+        "premium"
+      ],
+      "mood_text": "Luxurious, minimalist, sophisticated, premium",
+      "tone": "Pure black with gold accent",
+      "style_md": "Styles/dark--luxury-minimal/style.md",
+      "build_script": "Styles/dark--luxury-minimal/build.sh",
+      "pptx_files": [
+        "Styles/dark--luxury-minimal/dark__luxury_minimal.pptx"
+      ]
+    },
+    {
+      "id": "dark--midnight-blueprint",
+      "name": "Architecture Professional",
+      "heading": "Midnight Blueprint — Architecture Professional",
+      "palette": "dark",
+      "best_for": [
+        "Architecture firms",
+        "professional services",
+        "corporate showcases",
+        "luxury real estate",
+        "high-end consultancies"
+      ],
+      "best_for_text": "Architecture firms, professional services, corporate showcases, luxury real estate, high-end consultancies",
+      "mood": [
+        "Sophisticated",
+        "professional",
+        "premium",
+        "architectural"
+      ],
+      "mood_text": "Sophisticated, professional, premium, architectural",
+      "tone": "Deep navy gradient with electric blue and gold accents",
+      "style_md": "Styles/dark--midnight-blueprint/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "dark--neon-productivity",
+      "name": "Energetic Dark Theme",
+      "heading": "Neon Productivity — Energetic Dark Theme",
+      "palette": "dark",
+      "best_for": [
+        "Productivity talks",
+        "tech workshops",
+        "motivation",
+        "self-improvement",
+        "startup pitches"
+      ],
+      "best_for_text": "Productivity talks, tech workshops, motivation/self-improvement, startup pitches",
+      "mood": [
+        "Energetic",
+        "modern",
+        "productivity-focused",
+        "vibrant"
+      ],
+      "mood_text": "Energetic, modern, productivity-focused, vibrant",
+      "tone": "Deep navy with multi-color neon accents",
+      "style_md": "Styles/dark--neon-productivity/style.md",
+      "build_script": "Styles/dark--neon-productivity/build.sh",
+      "pptx_files": [
+        "Styles/dark--neon-productivity/dark__neon_productivity.pptx"
+      ]
+    },
+    {
+      "id": "dark--obsidian-amber",
+      "name": "Dark Finance",
+      "heading": "Obsidian Amber — Dark Finance",
+      "palette": "dark",
+      "best_for": [
+        "Finance",
+        "investment",
+        "luxury services",
+        "premium consulting"
+      ],
+      "best_for_text": "Finance, investment, luxury services, premium consulting",
+      "mood": [
+        "Premium",
+        "sophisticated",
+        "mysterious",
+        "powerful"
+      ],
+      "mood_text": "Premium, sophisticated, mysterious, powerful",
+      "tone": "Near-black with amber accents",
+      "style_md": "Styles/dark--obsidian-amber/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "dark--premium-navy",
+      "name": "Premium Navy & Gold",
+      "heading": "05-premium-navy — Premium Navy & Gold",
+      "palette": "dark",
+      "best_for": [
+        "Premium enterprise",
+        "annual strategy",
+        "board reports"
+      ],
+      "best_for_text": "Premium enterprise, annual strategy, board reports",
+      "mood": [
+        "Authoritative",
+        "refined",
+        "premium",
+        "trustworthy"
+      ],
+      "mood_text": "Authoritative, refined, premium, trustworthy",
+      "tone": "Deep navy base + gold highlights + steel blue auxiliary",
+      "style_md": "Styles/dark--premium-navy/style.md",
+      "build_script": "Styles/dark--premium-navy/build.sh",
+      "pptx_files": [
+        "Styles/dark--premium-navy/dark__premium_navy.pptx"
+      ]
+    },
+    {
+      "id": "dark--sage-grain",
+      "name": "Creative Agency",
+      "heading": "Sage Grain — Creative Agency",
+      "palette": "dark",
+      "best_for": [
+        "Creative agencies",
+        "design studios",
+        "boutique consultancies",
+        "organic brands",
+        "wellness companies"
+      ],
+      "best_for_text": "Creative agencies, design studios, boutique consultancies, organic brands, wellness companies",
+      "mood": [
+        "Organic",
+        "sophisticated",
+        "grounded",
+        "artisanal"
+      ],
+      "mood_text": "Organic, sophisticated, grounded, artisanal",
+      "tone": "Dark sage-grey with white and warm accents",
+      "style_md": "Styles/dark--sage-grain/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "dark--space-odyssey",
+      "name": "Cosmic Exploration",
+      "heading": "Space Odyssey — Cosmic Exploration",
+      "palette": "dark",
+      "best_for": [
+        "Space",
+        "astronomy presentations",
+        "science education",
+        "exploration narratives",
+        "technology showcases"
+      ],
+      "best_for_text": "Space/astronomy presentations, science education, exploration narratives, technology showcases",
+      "mood": [
+        "Cosmic",
+        "inspiring",
+        "epic",
+        "exploratory"
+      ],
+      "mood_text": "Cosmic, inspiring, epic, exploratory",
+      "tone": "Deep space blue with gold and cyan accents",
+      "style_md": "Styles/dark--space-odyssey/style.md",
+      "build_script": "Styles/dark--space-odyssey/build.sh",
+      "pptx_files": [
+        "Styles/dark--space-odyssey/dark__space_odyssey.pptx"
+      ]
+    },
+    {
+      "id": "dark--spotlight-stage",
+      "name": "Stage Spotlight",
+      "heading": "S18-spotlight-stage — Stage Spotlight",
+      "palette": "dark",
+      "best_for": [
+        "Speeches",
+        "product launches",
+        "TED-style",
+        "annual meetings"
+      ],
+      "best_for_text": "Speeches, product launches, TED-style, annual meetings",
+      "mood": [
+        "Dramatic",
+        "focused",
+        "theatrical"
+      ],
+      "mood_text": "Dramatic, focused, theatrical",
+      "tone": "Near-black background + warm white/gold spotlight",
+      "style_md": "Styles/dark--spotlight-stage/style.md",
+      "build_script": "Styles/dark--spotlight-stage/build.sh",
+      "pptx_files": [
+        "Styles/dark--spotlight-stage/dark__spotlight_stage.pptx"
+      ]
+    },
+    {
+      "id": "dark--velvet-rose",
+      "name": "Luxury Brand",
+      "heading": "Velvet Rose — Luxury Brand",
+      "palette": "dark",
+      "best_for": [
+        "Luxury brands",
+        "premium fashion",
+        "high-end retail",
+        "elegant showcases"
+      ],
+      "best_for_text": "Luxury brands, premium fashion, high-end retail, elegant showcases",
+      "mood": [
+        "Luxurious",
+        "elegant",
+        "sophisticated",
+        "refined"
+      ],
+      "mood_text": "Luxurious, elegant, sophisticated, refined",
+      "tone": "Deep plum with gold accents",
+      "style_md": "Styles/dark--velvet-rose/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--bold-type",
+      "name": "Bold Typography",
+      "heading": "08-bold-type — Bold Typography",
+      "palette": "light",
+      "best_for": [
+        "Editorial typography",
+        "magazine style",
+        "brand manual"
+      ],
+      "best_for_text": "Editorial typography, magazine style, brand manual",
+      "mood": [
+        "Bold",
+        "modern",
+        "dynamic",
+        "editorial"
+      ],
+      "mood_text": "Bold, modern, dynamic, editorial",
+      "tone": "Warm gray base + near black + red accent",
+      "style_md": "Styles/light--bold-type/style.md",
+      "build_script": "Styles/light--bold-type/build.sh",
+      "pptx_files": [
+        "Styles/light--bold-type/light__bold_type.pptx"
+      ]
+    },
+    {
+      "id": "light--firmwise-saas",
+      "name": "Clean Efficiency",
+      "heading": "Firmwise SaaS — Clean Efficiency",
+      "palette": "light",
+      "best_for": [
+        "SaaS platforms",
+        "productivity tools",
+        "B2B software",
+        "efficiency dashboards"
+      ],
+      "best_for_text": "SaaS platforms, productivity tools, B2B software, efficiency dashboards",
+      "mood": [
+        "Clean",
+        "efficient",
+        "modern",
+        "trustworthy"
+      ],
+      "mood_text": "Clean, efficient, modern, trustworthy",
+      "tone": "Light blue-grey with electric purple accents",
+      "style_md": "Styles/light--firmwise-saas/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--fluid-gradient",
+      "name": "Tech Product",
+      "heading": "Fluid Gradient — Tech Product",
+      "palette": "light",
+      "best_for": [
+        "AI",
+        "tech products",
+        "SaaS platforms",
+        "modern software"
+      ],
+      "best_for_text": "AI/tech products, SaaS platforms, modern software",
+      "mood": [
+        "Fluid",
+        "modern",
+        "tech-forward",
+        "dynamic"
+      ],
+      "mood_text": "Fluid, modern, tech-forward, dynamic",
+      "tone": "Gradient backgrounds with bright accents",
+      "style_md": "Styles/light--fluid-gradient/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--glassmorphism-vc",
+      "name": "Investment Fund",
+      "heading": "Glassmorphism VC — Investment Fund",
+      "palette": "light",
+      "best_for": [
+        "VC funds",
+        "investment decks",
+        "fintech",
+        "startup pitches"
+      ],
+      "best_for_text": "VC funds, investment decks, fintech, startup pitches",
+      "mood": [
+        "Modern",
+        "premium",
+        "sophisticated",
+        "trustworthy"
+      ],
+      "mood_text": "Modern, premium, sophisticated, trustworthy",
+      "tone": "Light blue with gradient spheres",
+      "style_md": "Styles/light--glassmorphism-vc/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--isometric-clean",
+      "name": "Isometric Clean Tech",
+      "heading": "S23-isometric-clean — Isometric Clean Tech",
+      "palette": "light",
+      "best_for": [
+        "Tech products",
+        "SaaS platforms",
+        "data display"
+      ],
+      "best_for_text": "Tech products, SaaS platforms, data display",
+      "mood": [
+        "Clean",
+        "modern",
+        "technological"
+      ],
+      "mood_text": "Clean, modern, technological",
+      "tone": "Light blue-gray base + blue accent + light gray layers",
+      "style_md": "Styles/light--isometric-clean/style.md",
+      "build_script": "Styles/light--isometric-clean/build.sh",
+      "pptx_files": [
+        "Styles/light--isometric-clean/light__isometric_clean.pptx"
+      ]
+    },
+    {
+      "id": "light--minimal-corporate",
+      "name": "Minimal Corporate Presentation",
+      "heading": "02-minimal-corporate — Minimal Corporate Presentation",
+      "palette": "light",
+      "best_for": [
+        "Annual reports",
+        "work summaries",
+        "project reports",
+        "business proposals"
+      ],
+      "best_for_text": "Annual reports, work summaries, project reports, business proposals",
+      "mood": [
+        "Professional",
+        "concise",
+        "clear",
+        "sophisticated",
+        "stable"
+      ],
+      "mood_text": "Professional, concise, clear, sophisticated, stable",
+      "tone": "Light tone, warm tone, low contrast",
+      "style_md": "Styles/light--minimal-corporate/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--minimal-product",
+      "name": "Minimal Product Introduction",
+      "heading": "05-minimal-product — Minimal Product Introduction",
+      "palette": "light",
+      "best_for": [
+        "Product launches",
+        "tech showcases",
+        "brand introductions",
+        "business presentations"
+      ],
+      "best_for_text": "Product launches, tech showcases, brand introductions, business presentations",
+      "mood": [
+        "Professional",
+        "modern",
+        "minimalist",
+        "premium",
+        "technological"
+      ],
+      "mood_text": "Professional, modern, minimalist, premium, technological",
+      "tone": "Cool tone, low saturation, high contrast",
+      "style_md": "Styles/light--minimal-product/style.md",
+      "build_script": "Styles/light--minimal-product/build.sh",
+      "pptx_files": [
+        "Styles/light--minimal-product/light__minimal_product.pptx"
+      ]
+    },
+    {
+      "id": "light--project-proposal",
+      "name": "Project Proposal",
+      "heading": "12-project-proposal — Project Proposal",
+      "palette": "light",
+      "best_for": [
+        "Project initiation",
+        "business proposals",
+        "solution presentations",
+        "bid presentations"
+      ],
+      "best_for_text": "Project initiation, business proposals, solution presentations, bid presentations",
+      "mood": [
+        "Professional",
+        "trustworthy",
+        "efficient",
+        "rigorous"
+      ],
+      "mood_text": "Professional, trustworthy, efficient, rigorous",
+      "tone": "Cool tone, low saturation, business gray-blue",
+      "style_md": "Styles/light--project-proposal/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--spring-launch",
+      "name": "Spring Launch Fresh",
+      "heading": "07-spring-launch — Spring Launch Fresh",
+      "palette": "light",
+      "best_for": [
+        "Spring launch events",
+        "new product releases",
+        "seasonal marketing",
+        "brand activities"
+      ],
+      "best_for_text": "Spring launch events, new product releases, seasonal marketing, brand activities",
+      "mood": [
+        "Fresh",
+        "natural",
+        "vibrant",
+        "energetic",
+        "hopeful"
+      ],
+      "mood_text": "Fresh, natural, vibrant, energetic, hopeful",
+      "tone": "Green tone, light color system, natural colors, fresh gradients",
+      "style_md": "Styles/light--spring-launch/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--training-interactive",
+      "name": "Training Interactive",
+      "heading": "10-training-interactive — Training Interactive",
+      "palette": "light",
+      "best_for": [
+        "Corporate training",
+        "online courses",
+        "knowledge sharing",
+        "skill teaching"
+      ],
+      "best_for_text": "Corporate training, online courses, knowledge sharing, skill teaching",
+      "mood": [
+        "Learning",
+        "interactive",
+        "progressive",
+        "energetic",
+        "friendly"
+      ],
+      "mood_text": "Learning, interactive, progressive, energetic, friendly",
+      "tone": "Warm tone, medium saturation, comfortable and eye-friendly",
+      "style_md": "Styles/light--training-interactive/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "light--watercolor-wash",
+      "name": "Watercolor Wash",
+      "heading": "S16-watercolor-wash — Watercolor Wash",
+      "palette": "light",
+      "best_for": [
+        "Art",
+        "cultural creativity",
+        "tea ceremony",
+        "weddings"
+      ],
+      "best_for_text": "Art, cultural creativity, tea ceremony, weddings",
+      "mood": [
+        "Soft",
+        "poetic",
+        "artistic"
+      ],
+      "mood_text": "Soft, poetic, artistic",
+      "tone": "Warm white base + sky blue/peach/sage/lavender multicolor wash",
+      "style_md": "Styles/light--watercolor-wash/style.md",
+      "build_script": "Styles/light--watercolor-wash/build.sh",
+      "pptx_files": [
+        "Styles/light--watercolor-wash/light__watercolor_wash.pptx"
+      ]
+    },
+    {
+      "id": "mixed--bauhaus-blocks",
+      "name": "Geometric Grid",
+      "heading": "Bauhaus Color Block — Geometric Grid",
+      "palette": "mixed",
+      "best_for": [
+        "Creative studios",
+        "design portfolios",
+        "branding agencies",
+        "architectural firms",
+        "art galleries"
+      ],
+      "best_for_text": "Creative studios, design portfolios, branding agencies, architectural firms, art galleries",
+      "mood": [
+        "Bold",
+        "modernist",
+        "geometric",
+        "artistic",
+        "confident"
+      ],
+      "mood_text": "Bold, modernist, geometric, artistic, confident",
+      "tone": "Cream background with forest green, amber, tangerine, and dark accents",
+      "style_md": "Styles/mixed--bauhaus-blocks/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "mixed--chromatic-aberration",
+      "name": "CRT RGB Split",
+      "heading": "Chromatic Aberration — CRT RGB Split",
+      "palette": "mixed",
+      "best_for": [
+        "Tech startups",
+        "AI platforms",
+        "creative technology",
+        "developer tools",
+        "futuristic product launches"
+      ],
+      "best_for_text": "Tech startups, AI platforms, creative technology, developer tools, futuristic product launches",
+      "mood": [
+        "Futuristic",
+        "glitch aesthetic",
+        "high-tech",
+        "edgy",
+        "cyber"
+      ],
+      "mood_text": "Futuristic, glitch aesthetic, high-tech, edgy, cyber",
+      "tone": "Ultra-dark with neon cyan and hot pink accents",
+      "style_md": "Styles/mixed--chromatic-aberration/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "mixed--duotone-split",
+      "name": "Duotone Split",
+      "heading": "12 Duotone Split — Duotone Split",
+      "palette": "mixed",
+      "best_for": [
+        "Brand launches",
+        "architectural design",
+        "high-end presentations"
+      ],
+      "best_for_text": "Brand launches, architectural design, high-end presentations",
+      "mood": [
+        "Bold",
+        "architectural feel",
+        "high-end",
+        "minimalist"
+      ],
+      "mood_text": "Bold, architectural feel, high-end, minimalist",
+      "tone": "Dual-color contrast (deep dark + warm color), white dividers",
+      "style_md": "Styles/mixed--duotone-split/style.md",
+      "build_script": "Styles/mixed--duotone-split/build.sh",
+      "pptx_files": [
+        "Styles/mixed--duotone-split/mixed__duotone_split.pptx"
+      ]
+    },
+    {
+      "id": "mixed--spectral-grid",
+      "name": "Vibrant Synthesis",
+      "heading": "Spectral Grid — Vibrant Synthesis",
+      "palette": "mixed",
+      "best_for": [
+        "Creative tech",
+        "innovation showcases",
+        "design conferences"
+      ],
+      "best_for_text": "Creative tech, innovation showcases, design conferences",
+      "mood": [
+        "Vibrant",
+        "energetic",
+        "innovative",
+        "experimental"
+      ],
+      "mood_text": "Vibrant, energetic, innovative, experimental",
+      "tone": "Deep indigo with multi-color accents",
+      "style_md": "Styles/mixed--spectral-grid/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "vivid--bauhaus-electric",
+      "name": "Creative Agency",
+      "heading": "Bauhaus Electric — Creative Agency",
+      "palette": "vivid",
+      "best_for": [
+        "Creative agencies",
+        "design studios",
+        "bold branding"
+      ],
+      "best_for_text": "Creative agencies, design studios, bold branding",
+      "mood": [
+        "Bold",
+        "energetic",
+        "geometric",
+        "electric"
+      ],
+      "mood_text": "Bold, energetic, geometric, electric",
+      "tone": "Electric blue + acid lime",
+      "style_md": "Styles/vivid--bauhaus-electric/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "vivid--candy-stripe",
+      "name": "Rainbow Candy Stripes",
+      "heading": "10 Candy Stripe — Rainbow Candy Stripes",
+      "palette": "vivid",
+      "best_for": [
+        "Celebrations",
+        "festivals",
+        "children's education",
+        "creative marketing"
+      ],
+      "best_for_text": "Celebrations, festivals, children's education, creative marketing",
+      "mood": [
+        "Joyful",
+        "lively",
+        "festive",
+        "rainbow"
+      ],
+      "mood_text": "Joyful, lively, festive, rainbow",
+      "tone": "White base, six-color rainbow accents",
+      "style_md": "Styles/vivid--candy-stripe/style.md",
+      "build_script": "Styles/vivid--candy-stripe/build.sh",
+      "pptx_files": [
+        "Styles/vivid--candy-stripe/vivid__candy_stripe.pptx"
+      ]
+    },
+    {
+      "id": "vivid--energy-neon",
+      "name": "Editorial Conference",
+      "heading": "Energy Neon — Editorial Conference",
+      "palette": "vivid",
+      "best_for": [
+        "Conferences",
+        "energy summits",
+        "tech events",
+        "editorial publications",
+        "speaker showcases"
+      ],
+      "best_for_text": "Conferences, energy summits, tech events, editorial publications, speaker showcases",
+      "mood": [
+        "Energetic",
+        "modern",
+        "impactful",
+        "editorial"
+      ],
+      "mood_text": "Energetic, modern, impactful, editorial",
+      "tone": "Light grey with neon green accent blocks",
+      "style_md": "Styles/vivid--energy-neon/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "vivid--pink-editorial",
+      "name": "Gradient Stats",
+      "heading": "Pink Editorial — Gradient Stats",
+      "palette": "vivid",
+      "best_for": [
+        "Annual reports",
+        "statistical showcases",
+        "editorial publications",
+        "data journalism",
+        "executive summaries"
+      ],
+      "best_for_text": "Annual reports, statistical showcases, editorial publications, data journalism, executive summaries",
+      "mood": [
+        "Contemporary",
+        "editorial",
+        "sophisticated",
+        "data-driven"
+      ],
+      "mood_text": "Contemporary, editorial, sophisticated, data-driven",
+      "tone": "Dark purple-pink gradient with high-contrast white typography",
+      "style_md": "Styles/vivid--pink-editorial/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "vivid--playful-marketing",
+      "name": "Vibrant Youth Marketing",
+      "heading": "03-playful-marketing — Vibrant Youth Marketing",
+      "palette": "vivid",
+      "best_for": [
+        "Marketing campaigns",
+        "brand launches",
+        "new product promotions",
+        "promotional activities"
+      ],
+      "best_for_text": "Marketing campaigns, brand launches, new product promotions, promotional activities",
+      "mood": [
+        "Youthful",
+        "energetic",
+        "enthusiastic",
+        "creative",
+        "bold"
+      ],
+      "mood_text": "Youthful, energetic, enthusiastic, creative, bold",
+      "tone": "Warm tones, high saturation, high contrast",
+      "style_md": "Styles/vivid--playful-marketing/style.md",
+      "build_script": "Styles/vivid--playful-marketing/build.sh",
+      "pptx_files": [
+        "Styles/vivid--playful-marketing/vivid__playful_marketing.pptx"
+      ]
+    },
+    {
+      "id": "warm--bloom-academy",
+      "name": "Education Blobs",
+      "heading": "Bloom Academy — Education Blobs",
+      "palette": "warm",
+      "best_for": [
+        "Education",
+        "e-learning",
+        "children's content",
+        "playful branding"
+      ],
+      "best_for_text": "Education, e-learning, children's content, playful branding",
+      "mood": [
+        "Playful",
+        "educational",
+        "organic",
+        "friendly"
+      ],
+      "mood_text": "Playful, educational, organic, friendly",
+      "tone": "Warm educational colors",
+      "style_md": "Styles/warm--bloom-academy/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "warm--brand-refresh",
+      "name": "Brand Refresh",
+      "heading": "Brand Refresh — Brand Refresh",
+      "palette": "warm",
+      "best_for": [
+        "Brand launches",
+        "corporate image updates",
+        "creative proposals"
+      ],
+      "best_for_text": "Brand launches, corporate image updates, creative proposals",
+      "mood": [
+        "Warm",
+        "fashionable",
+        "colorful",
+        "modern"
+      ],
+      "mood_text": "Warm, fashionable, colorful, modern",
+      "tone": "Warm base, colorful blocks",
+      "style_md": "Styles/warm--brand-refresh/style.md",
+      "build_script": "Styles/warm--brand-refresh/build.sh",
+      "pptx_files": [
+        "Styles/warm--brand-refresh/warm__brand_refresh.pptx"
+      ]
+    },
+    {
+      "id": "warm--coral-culture",
+      "name": "Company Culture Deck",
+      "heading": "Coral Culture — Company Culture Deck",
+      "palette": "warm",
+      "best_for": [
+        "Company culture decks",
+        "HR presentations",
+        "team showcases"
+      ],
+      "best_for_text": "Company culture decks, HR presentations, team showcases",
+      "mood": [
+        "Warm",
+        "cultural",
+        "human-centered",
+        "dynamic"
+      ],
+      "mood_text": "Warm, cultural, human-centered, dynamic",
+      "tone": "Blue to coral gradient",
+      "style_md": "Styles/warm--coral-culture/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "warm--earth-organic",
+      "name": "Earth and Sage",
+      "heading": "04-earth-organic — Earth and Sage",
+      "palette": "warm",
+      "best_for": [
+        "Environmental sustainability",
+        "organic brands",
+        "nature themes"
+      ],
+      "best_for_text": "Environmental sustainability, organic brands, nature themes",
+      "mood": [
+        "Warm",
+        "sincere",
+        "natural",
+        "storytelling"
+      ],
+      "mood_text": "Warm, sincere, natural, storytelling",
+      "tone": "Warm brown + sage green + terracotta + sandy gold, overall earth tone palette",
+      "style_md": "Styles/warm--earth-organic/style.md",
+      "build_script": "Styles/warm--earth-organic/build.sh",
+      "pptx_files": [
+        "Styles/warm--earth-organic/warm__earth_organic.pptx"
+      ]
+    },
+    {
+      "id": "warm--monument-editorial",
+      "name": "Pure Typography",
+      "heading": "Monument Editorial — Pure Typography",
+      "palette": "warm",
+      "best_for": [
+        "Architecture",
+        "luxury brands",
+        "editorial magazines",
+        "studio branding"
+      ],
+      "best_for_text": "Architecture, luxury brands, editorial magazines, studio branding",
+      "mood": [
+        "Monumental",
+        "editorial",
+        "refined",
+        "typographic"
+      ],
+      "mood_text": "Monumental, editorial, refined, typographic",
+      "tone": "Warm paper with terracotta",
+      "style_md": "Styles/warm--monument-editorial/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "warm--playful-organic",
+      "name": "Warm Colorful Friendly",
+      "heading": "Playful Organic — Warm Colorful Friendly",
+      "palette": "warm",
+      "best_for": [
+        "Lifestyle presentations",
+        "pet",
+        "animal topics",
+        "children's education",
+        "creative workshops",
+        "storytelling"
+      ],
+      "best_for_text": "Lifestyle presentations, pet/animal topics, children's education, creative workshops, storytelling",
+      "mood": [
+        "Warm",
+        "playful",
+        "organic",
+        "friendly"
+      ],
+      "mood_text": "Warm, playful, organic, friendly",
+      "tone": "Warm cream with coral, yellow, and teal accents",
+      "style_md": "Styles/warm--playful-organic/style.md",
+      "build_script": "Styles/warm--playful-organic/build.sh",
+      "pptx_files": [
+        "Styles/warm--playful-organic/Cat-Secret-Life.pptx"
+      ]
+    },
+    {
+      "id": "warm--sunset-mosaic",
+      "name": "Corporate Gradient",
+      "heading": "Sunset Mosaic — Corporate Gradient",
+      "palette": "warm",
+      "best_for": [
+        "Engineering firms",
+        "infrastructure",
+        "B2B corporate",
+        "construction"
+      ],
+      "best_for_text": "Engineering firms, infrastructure, B2B corporate, construction",
+      "mood": [
+        "Professional",
+        "warm",
+        "grounded",
+        "data-driven"
+      ],
+      "mood_text": "Professional, warm, grounded, data-driven",
+      "tone": "Muted corporate with sunset gradient accents",
+      "style_md": "Styles/warm--sunset-mosaic/style.md",
+      "build_script": null,
+      "pptx_files": []
+    },
+    {
+      "id": "warm--vital-bloom",
+      "name": "Wellness Organic",
+      "heading": "Vital Bloom — Wellness Organic",
+      "palette": "warm",
+      "best_for": [
+        "Wellness apps",
+        "yoga studios",
+        "mindful living",
+        "organic brands"
+      ],
+      "best_for_text": "Wellness apps, yoga studios, mindful living, organic brands",
+      "mood": [
+        "Organic",
+        "vibrant",
+        "healthy",
+        "energetic"
+      ],
+      "mood_text": "Organic, vibrant, healthy, energetic",
+      "tone": "Warm organic colors",
+      "style_md": "Styles/warm--vital-bloom/style.md",
+      "build_script": null,
+      "pptx_files": []
+    }
+  ]
+}
