@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate Styles/index.json from Styles/*/style.md.
+Generate Styles/index.json from Styles/template/*/style.md.
 """
 
 from __future__ import annotations
@@ -90,8 +90,11 @@ def build_style_record(style_dir: Path, styles_root: Path) -> Dict[str, object]:
 
 
 def generate_index(styles_root: Path) -> Dict[str, object]:
+    template_root = styles_root / "template"
+    if not template_root.is_dir():
+        raise SystemExit(f"Missing Styles/template directory: {template_root}")
     style_dirs = sorted(
-        [p for p in styles_root.iterdir() if p.is_dir() and (p / "style.md").exists()],
+        [p for p in template_root.iterdir() if p.is_dir() and (p / "style.md").exists()],
         key=lambda p: p.name,
     )
     styles = [build_style_record(style_dir, styles_root) for style_dir in style_dirs]
@@ -110,7 +113,7 @@ def generate_index(styles_root: Path) -> Dict[str, object]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Generate Styles/index.json from style.md files.")
+    parser = argparse.ArgumentParser(description="Generate Styles/index.json from Styles/template/*/style.md.")
     parser.add_argument("--styles-dir", default="Styles", help="Styles root directory (default: Styles)")
     parser.add_argument("--output", default="Styles/index.json", help="Output json path (default: Styles/index.json)")
     parser.add_argument("--check", action="store_true", help="Check mode: fail if output is not up to date")

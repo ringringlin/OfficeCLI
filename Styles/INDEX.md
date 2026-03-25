@@ -1,6 +1,12 @@
 # Style Index
 
-The Agent uses this table to quickly select a reference style based on the topic. After selecting, read `<directory>/style.md` to understand the design philosophy; read `build.sh` when you need an implementation reference.
+## Layout
+
+- **`template/`** — Full-deck style references: each `<palette>--<name>/` folder contains `style.md` and optional `build.sh` / sample `.pptx`.
+- **`component/`** — Reusable slide fragments or shared assets (populate as needed).
+- **`index.json`** — Machine-readable index; paths use `Styles/template/<id>/...`. The **Directory** column below is the leaf name under `template/` (same as each style `id`).
+
+The Agent uses this table to quickly select a reference style based on the topic. After selecting, read `template/<directory>/style.md` to understand the design philosophy; read `build.sh` when you need an implementation reference.
 
 **Important Notice**:
 

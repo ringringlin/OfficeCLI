@@ -30,10 +30,10 @@
       ],
       "mood_text": "Rebellious, rough, impactful, raw",
       "tone": "Black-white-red three colors",
-      "style_md": "Styles/bw--brutalist-raw/style.md",
-      "build_script": "Styles/bw--brutalist-raw/build.sh",
+      "style_md": "Styles/template/bw--brutalist-raw/style.md",
+      "build_script": "Styles/template/bw--brutalist-raw/build.sh",
       "pptx_files": [
-        "Styles/bw--brutalist-raw/bw__brutalist_raw.pptx"
+        "Styles/template/bw--brutalist-raw/bw__brutalist_raw.pptx"
       ]
     },
     {
@@ -54,10 +54,10 @@
       ],
       "mood_text": "Calm, restrained, professional",
       "tone": "Pure black-white + mid-gray accents",
-      "style_md": "Styles/bw--mono-line/style.md",
-      "build_script": "Styles/bw--mono-line/build.sh",
+      "style_md": "Styles/template/bw--mono-line/style.md",
+      "build_script": "Styles/template/bw--mono-line/build.sh",
       "pptx_files": [
-        "Styles/bw--mono-line/bw__mono_line.pptx"
+        "Styles/template/bw--mono-line/bw__mono_line.pptx"
       ]
     },
     {
@@ -80,10 +80,10 @@
       ],
       "mood_text": "Rational, rigorous, classic, restrained",
       "tone": "Red-black-white three colors",
-      "style_md": "Styles/bw--swiss-bauhaus/style.md",
-      "build_script": "Styles/bw--swiss-bauhaus/build.sh",
+      "style_md": "Styles/template/bw--swiss-bauhaus/style.md",
+      "build_script": "Styles/template/bw--swiss-bauhaus/build.sh",
       "pptx_files": [
-        "Styles/bw--swiss-bauhaus/bw__swiss_bauhaus.pptx"
+        "Styles/template/bw--swiss-bauhaus/bw__swiss_bauhaus.pptx"
       ]
     },
     {
@@ -106,7 +106,7 @@
       ],
       "mood_text": "Clean, systematic, bold, Swiss design",
       "tone": "White with black and red accents",
-      "style_md": "Styles/bw--swiss-system/style.md",
+      "style_md": "Styles/template/bw--swiss-system/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -128,10 +128,10 @@
       ],
       "mood_text": "Professional, structured, architectural",
       "tone": "Dark blue-gray background + light blue panels + gold accents",
-      "style_md": "Styles/dark--architectural-plan/style.md",
-      "build_script": "Styles/dark--architectural-plan/build.sh",
+      "style_md": "Styles/template/dark--architectural-plan/style.md",
+      "build_script": "Styles/template/dark--architectural-plan/build.sh",
       "pptx_files": [
-        "Styles/dark--architectural-plan/dark__architectural_plan.pptx"
+        "Styles/template/dark--architectural-plan/dark__architectural_plan.pptx"
       ]
     },
     {
@@ -153,7 +153,7 @@
       ],
       "mood_text": "Aurora-like, dreamy, artistic, mysterious",
       "tone": "Dark with soft aurora colors",
-      "style_md": "Styles/dark--aurora-softedge/style.md",
+      "style_md": "Styles/template/dark--aurora-softedge/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -175,10 +175,10 @@
       ],
       "mood_text": "Precise, professional, engineering-oriented",
       "tone": "Deep blue + white grid + gold accents",
-      "style_md": "Styles/dark--blueprint-grid/style.md",
-      "build_script": "Styles/dark--blueprint-grid/build.sh",
+      "style_md": "Styles/template/dark--blueprint-grid/style.md",
+      "build_script": "Styles/template/dark--blueprint-grid/build.sh",
       "pptx_files": [
-        "Styles/dark--blueprint-grid/dark__blueprint_grid.pptx"
+        "Styles/template/dark--blueprint-grid/dark__blueprint_grid.pptx"
       ]
     },
     {
@@ -199,10 +199,10 @@
       ],
       "mood_text": "Modern, dark-cool, digital",
       "tone": "Near-black background + dark gray card layers + neon lime accents",
-      "style_md": "Styles/dark--circle-digital/style.md",
-      "build_script": "Styles/dark--circle-digital/build.sh",
+      "style_md": "Styles/template/dark--circle-digital/style.md",
+      "build_script": "Styles/template/dark--circle-digital/build.sh",
       "pptx_files": [
-        "Styles/dark--circle-digital/dark__circle_digital.pptx"
+        "Styles/template/dark--circle-digital/dark__circle_digital.pptx"
       ]
     },
     {
@@ -225,10 +225,10 @@
       ],
       "mood_text": "Sci-fi, mysterious, futuristic, neon",
       "tone": "Near-black with purple and cyan neon",
-      "style_md": "Styles/dark--cosmic-neon/style.md",
-      "build_script": "Styles/dark--cosmic-neon/build.sh",
+      "style_md": "Styles/template/dark--cosmic-neon/style.md",
+      "build_script": "Styles/template/dark--cosmic-neon/build.sh",
       "pptx_files": [
-        "Styles/dark--cosmic-neon/dark__cosmic_neon.pptx"
+        "Styles/template/dark--cosmic-neon/dark__cosmic_neon.pptx"
       ]
     },
     {
@@ -252,10 +252,10 @@
       ],
       "mood_text": "Futuristic, cyberpunk, immersive, sci-fi",
       "tone": "Near-black with electric cyan and teal",
-      "style_md": "Styles/dark--cyber-future/style.md",
-      "build_script": "Styles/dark--cyber-future/build.sh",
+      "style_md": "Styles/template/dark--cyber-future/style.md",
+      "build_script": "Styles/template/dark--cyber-future/build.sh",
       "pptx_files": [
-        "Styles/dark--cyber-future/dark__cyber_future.pptx"
+        "Styles/template/dark--cyber-future/dark__cyber_future.pptx"
       ]
     },
     {
@@ -278,10 +278,10 @@
       ],
       "mood_text": "Rugged, powerful, industrial, bold",
       "tone": "Dark background, high-contrast warm accent colors",
-      "style_md": "Styles/dark--diagonal-cut/style.md",
-      "build_script": "Styles/dark--diagonal-cut/build.sh",
+      "style_md": "Styles/template/dark--diagonal-cut/style.md",
+      "build_script": "Styles/template/dark--diagonal-cut/build.sh",
       "pptx_files": [
-        "Styles/dark--diagonal-cut/dark__diagonal_cut.pptx"
+        "Styles/template/dark--diagonal-cut/dark__diagonal_cut.pptx"
       ]
     },
     {
@@ -305,10 +305,10 @@
       ],
       "mood_text": "Professional, narrative, literary, premium, media",
       "tone": "Cool tones, low saturation, high contrast",
-      "style_md": "Styles/dark--editorial-story/style.md",
-      "build_script": "Styles/dark--editorial-story/build.sh",
+      "style_md": "Styles/template/dark--editorial-story/style.md",
+      "build_script": "Styles/template/dark--editorial-story/build.sh",
       "pptx_files": [
-        "Styles/dark--editorial-story/dark__editorial_story.pptx"
+        "Styles/template/dark--editorial-story/dark__editorial_story.pptx"
       ]
     },
     {
@@ -331,10 +331,10 @@
       ],
       "mood_text": "Professional, trustworthy, stable, progressive",
       "tone": "Dark tones, cool colors, professional blue-red pairing",
-      "style_md": "Styles/dark--investor-pitch/style.md",
-      "build_script": "Styles/dark--investor-pitch/build.sh",
+      "style_md": "Styles/template/dark--investor-pitch/style.md",
+      "build_script": "Styles/template/dark--investor-pitch/build.sh",
       "pptx_files": [
-        "Styles/dark--investor-pitch/template.pptx"
+        "Styles/template/dark--investor-pitch/template.pptx"
       ]
     },
     {
@@ -357,10 +357,10 @@
       ],
       "mood_text": "Flowing, dreamy, premium, avant-garde",
       "tone": "Dark tones, multicolor gradient light effects",
-      "style_md": "Styles/dark--liquid-flow/style.md",
-      "build_script": "Styles/dark--liquid-flow/build.sh",
+      "style_md": "Styles/template/dark--liquid-flow/style.md",
+      "build_script": "Styles/template/dark--liquid-flow/build.sh",
       "pptx_files": [
-        "Styles/dark--liquid-flow/dark__liquid_flow.pptx"
+        "Styles/template/dark--liquid-flow/dark__liquid_flow.pptx"
       ]
     },
     {
@@ -382,10 +382,10 @@
       ],
       "mood_text": "Luxurious, minimalist, sophisticated, premium",
       "tone": "Pure black with gold accent",
-      "style_md": "Styles/dark--luxury-minimal/style.md",
-      "build_script": "Styles/dark--luxury-minimal/build.sh",
+      "style_md": "Styles/template/dark--luxury-minimal/style.md",
+      "build_script": "Styles/template/dark--luxury-minimal/build.sh",
       "pptx_files": [
-        "Styles/dark--luxury-minimal/dark__luxury_minimal.pptx"
+        "Styles/template/dark--luxury-minimal/dark__luxury_minimal.pptx"
       ]
     },
     {
@@ -409,7 +409,7 @@
       ],
       "mood_text": "Sophisticated, professional, premium, architectural",
       "tone": "Deep navy gradient with electric blue and gold accents",
-      "style_md": "Styles/dark--midnight-blueprint/style.md",
+      "style_md": "Styles/template/dark--midnight-blueprint/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -434,10 +434,10 @@
       ],
       "mood_text": "Energetic, modern, productivity-focused, vibrant",
       "tone": "Deep navy with multi-color neon accents",
-      "style_md": "Styles/dark--neon-productivity/style.md",
-      "build_script": "Styles/dark--neon-productivity/build.sh",
+      "style_md": "Styles/template/dark--neon-productivity/style.md",
+      "build_script": "Styles/template/dark--neon-productivity/build.sh",
       "pptx_files": [
-        "Styles/dark--neon-productivity/dark__neon_productivity.pptx"
+        "Styles/template/dark--neon-productivity/dark__neon_productivity.pptx"
       ]
     },
     {
@@ -460,7 +460,7 @@
       ],
       "mood_text": "Premium, sophisticated, mysterious, powerful",
       "tone": "Near-black with amber accents",
-      "style_md": "Styles/dark--obsidian-amber/style.md",
+      "style_md": "Styles/template/dark--obsidian-amber/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -483,10 +483,10 @@
       ],
       "mood_text": "Authoritative, refined, premium, trustworthy",
       "tone": "Deep navy base + gold highlights + steel blue auxiliary",
-      "style_md": "Styles/dark--premium-navy/style.md",
-      "build_script": "Styles/dark--premium-navy/build.sh",
+      "style_md": "Styles/template/dark--premium-navy/style.md",
+      "build_script": "Styles/template/dark--premium-navy/build.sh",
       "pptx_files": [
-        "Styles/dark--premium-navy/dark__premium_navy.pptx"
+        "Styles/template/dark--premium-navy/dark__premium_navy.pptx"
       ]
     },
     {
@@ -510,7 +510,7 @@
       ],
       "mood_text": "Organic, sophisticated, grounded, artisanal",
       "tone": "Dark sage-grey with white and warm accents",
-      "style_md": "Styles/dark--sage-grain/style.md",
+      "style_md": "Styles/template/dark--sage-grain/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -535,10 +535,10 @@
       ],
       "mood_text": "Cosmic, inspiring, epic, exploratory",
       "tone": "Deep space blue with gold and cyan accents",
-      "style_md": "Styles/dark--space-odyssey/style.md",
-      "build_script": "Styles/dark--space-odyssey/build.sh",
+      "style_md": "Styles/template/dark--space-odyssey/style.md",
+      "build_script": "Styles/template/dark--space-odyssey/build.sh",
       "pptx_files": [
-        "Styles/dark--space-odyssey/dark__space_odyssey.pptx"
+        "Styles/template/dark--space-odyssey/dark__space_odyssey.pptx"
       ]
     },
     {
@@ -560,10 +560,10 @@
       ],
       "mood_text": "Dramatic, focused, theatrical",
       "tone": "Near-black background + warm white/gold spotlight",
-      "style_md": "Styles/dark--spotlight-stage/style.md",
-      "build_script": "Styles/dark--spotlight-stage/build.sh",
+      "style_md": "Styles/template/dark--spotlight-stage/style.md",
+      "build_script": "Styles/template/dark--spotlight-stage/build.sh",
       "pptx_files": [
-        "Styles/dark--spotlight-stage/dark__spotlight_stage.pptx"
+        "Styles/template/dark--spotlight-stage/dark__spotlight_stage.pptx"
       ]
     },
     {
@@ -586,7 +586,7 @@
       ],
       "mood_text": "Luxurious, elegant, sophisticated, refined",
       "tone": "Deep plum with gold accents",
-      "style_md": "Styles/dark--velvet-rose/style.md",
+      "style_md": "Styles/template/dark--velvet-rose/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -609,10 +609,10 @@
       ],
       "mood_text": "Bold, modern, dynamic, editorial",
       "tone": "Warm gray base + near black + red accent",
-      "style_md": "Styles/light--bold-type/style.md",
-      "build_script": "Styles/light--bold-type/build.sh",
+      "style_md": "Styles/template/light--bold-type/style.md",
+      "build_script": "Styles/template/light--bold-type/build.sh",
       "pptx_files": [
-        "Styles/light--bold-type/light__bold_type.pptx"
+        "Styles/template/light--bold-type/light__bold_type.pptx"
       ]
     },
     {
@@ -635,7 +635,7 @@
       ],
       "mood_text": "Clean, efficient, modern, trustworthy",
       "tone": "Light blue-grey with electric purple accents",
-      "style_md": "Styles/light--firmwise-saas/style.md",
+      "style_md": "Styles/template/light--firmwise-saas/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -659,7 +659,7 @@
       ],
       "mood_text": "Fluid, modern, tech-forward, dynamic",
       "tone": "Gradient backgrounds with bright accents",
-      "style_md": "Styles/light--fluid-gradient/style.md",
+      "style_md": "Styles/template/light--fluid-gradient/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -683,7 +683,7 @@
       ],
       "mood_text": "Modern, premium, sophisticated, trustworthy",
       "tone": "Light blue with gradient spheres",
-      "style_md": "Styles/light--glassmorphism-vc/style.md",
+      "style_md": "Styles/template/light--glassmorphism-vc/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -705,10 +705,10 @@
       ],
       "mood_text": "Clean, modern, technological",
       "tone": "Light blue-gray base + blue accent + light gray layers",
-      "style_md": "Styles/light--isometric-clean/style.md",
-      "build_script": "Styles/light--isometric-clean/build.sh",
+      "style_md": "Styles/template/light--isometric-clean/style.md",
+      "build_script": "Styles/template/light--isometric-clean/build.sh",
       "pptx_files": [
-        "Styles/light--isometric-clean/light__isometric_clean.pptx"
+        "Styles/template/light--isometric-clean/light__isometric_clean.pptx"
       ]
     },
     {
@@ -732,7 +732,7 @@
       ],
       "mood_text": "Professional, concise, clear, sophisticated, stable",
       "tone": "Light tone, warm tone, low contrast",
-      "style_md": "Styles/light--minimal-corporate/style.md",
+      "style_md": "Styles/template/light--minimal-corporate/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -757,10 +757,10 @@
       ],
       "mood_text": "Professional, modern, minimalist, premium, technological",
       "tone": "Cool tone, low saturation, high contrast",
-      "style_md": "Styles/light--minimal-product/style.md",
-      "build_script": "Styles/light--minimal-product/build.sh",
+      "style_md": "Styles/template/light--minimal-product/style.md",
+      "build_script": "Styles/template/light--minimal-product/build.sh",
       "pptx_files": [
-        "Styles/light--minimal-product/light__minimal_product.pptx"
+        "Styles/template/light--minimal-product/light__minimal_product.pptx"
       ]
     },
     {
@@ -783,7 +783,7 @@
       ],
       "mood_text": "Professional, trustworthy, efficient, rigorous",
       "tone": "Cool tone, low saturation, business gray-blue",
-      "style_md": "Styles/light--project-proposal/style.md",
+      "style_md": "Styles/template/light--project-proposal/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -808,7 +808,7 @@
       ],
       "mood_text": "Fresh, natural, vibrant, energetic, hopeful",
       "tone": "Green tone, light color system, natural colors, fresh gradients",
-      "style_md": "Styles/light--spring-launch/style.md",
+      "style_md": "Styles/template/light--spring-launch/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -833,7 +833,7 @@
       ],
       "mood_text": "Learning, interactive, progressive, energetic, friendly",
       "tone": "Warm tone, medium saturation, comfortable and eye-friendly",
-      "style_md": "Styles/light--training-interactive/style.md",
+      "style_md": "Styles/template/light--training-interactive/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -856,10 +856,10 @@
       ],
       "mood_text": "Soft, poetic, artistic",
       "tone": "Warm white base + sky blue/peach/sage/lavender multicolor wash",
-      "style_md": "Styles/light--watercolor-wash/style.md",
-      "build_script": "Styles/light--watercolor-wash/build.sh",
+      "style_md": "Styles/template/light--watercolor-wash/style.md",
+      "build_script": "Styles/template/light--watercolor-wash/build.sh",
       "pptx_files": [
-        "Styles/light--watercolor-wash/light__watercolor_wash.pptx"
+        "Styles/template/light--watercolor-wash/light__watercolor_wash.pptx"
       ]
     },
     {
@@ -884,7 +884,7 @@
       ],
       "mood_text": "Bold, modernist, geometric, artistic, confident",
       "tone": "Cream background with forest green, amber, tangerine, and dark accents",
-      "style_md": "Styles/mixed--bauhaus-blocks/style.md",
+      "style_md": "Styles/template/mixed--bauhaus-blocks/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -910,7 +910,7 @@
       ],
       "mood_text": "Futuristic, glitch aesthetic, high-tech, edgy, cyber",
       "tone": "Ultra-dark with neon cyan and hot pink accents",
-      "style_md": "Styles/mixed--chromatic-aberration/style.md",
+      "style_md": "Styles/template/mixed--chromatic-aberration/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -933,10 +933,10 @@
       ],
       "mood_text": "Bold, architectural feel, high-end, minimalist",
       "tone": "Dual-color contrast (deep dark + warm color), white dividers",
-      "style_md": "Styles/mixed--duotone-split/style.md",
-      "build_script": "Styles/mixed--duotone-split/build.sh",
+      "style_md": "Styles/template/mixed--duotone-split/style.md",
+      "build_script": "Styles/template/mixed--duotone-split/build.sh",
       "pptx_files": [
-        "Styles/mixed--duotone-split/mixed__duotone_split.pptx"
+        "Styles/template/mixed--duotone-split/mixed__duotone_split.pptx"
       ]
     },
     {
@@ -958,7 +958,7 @@
       ],
       "mood_text": "Vibrant, energetic, innovative, experimental",
       "tone": "Deep indigo with multi-color accents",
-      "style_md": "Styles/mixed--spectral-grid/style.md",
+      "style_md": "Styles/template/mixed--spectral-grid/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -981,7 +981,7 @@
       ],
       "mood_text": "Bold, energetic, geometric, electric",
       "tone": "Electric blue + acid lime",
-      "style_md": "Styles/vivid--bauhaus-electric/style.md",
+      "style_md": "Styles/template/vivid--bauhaus-electric/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1005,10 +1005,10 @@
       ],
       "mood_text": "Joyful, lively, festive, rainbow",
       "tone": "White base, six-color rainbow accents",
-      "style_md": "Styles/vivid--candy-stripe/style.md",
-      "build_script": "Styles/vivid--candy-stripe/build.sh",
+      "style_md": "Styles/template/vivid--candy-stripe/style.md",
+      "build_script": "Styles/template/vivid--candy-stripe/build.sh",
       "pptx_files": [
-        "Styles/vivid--candy-stripe/vivid__candy_stripe.pptx"
+        "Styles/template/vivid--candy-stripe/vivid__candy_stripe.pptx"
       ]
     },
     {
@@ -1032,7 +1032,7 @@
       ],
       "mood_text": "Energetic, modern, impactful, editorial",
       "tone": "Light grey with neon green accent blocks",
-      "style_md": "Styles/vivid--energy-neon/style.md",
+      "style_md": "Styles/template/vivid--energy-neon/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1057,7 +1057,7 @@
       ],
       "mood_text": "Contemporary, editorial, sophisticated, data-driven",
       "tone": "Dark purple-pink gradient with high-contrast white typography",
-      "style_md": "Styles/vivid--pink-editorial/style.md",
+      "style_md": "Styles/template/vivid--pink-editorial/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1082,10 +1082,10 @@
       ],
       "mood_text": "Youthful, energetic, enthusiastic, creative, bold",
       "tone": "Warm tones, high saturation, high contrast",
-      "style_md": "Styles/vivid--playful-marketing/style.md",
-      "build_script": "Styles/vivid--playful-marketing/build.sh",
+      "style_md": "Styles/template/vivid--playful-marketing/style.md",
+      "build_script": "Styles/template/vivid--playful-marketing/build.sh",
       "pptx_files": [
-        "Styles/vivid--playful-marketing/vivid__playful_marketing.pptx"
+        "Styles/template/vivid--playful-marketing/vivid__playful_marketing.pptx"
       ]
     },
     {
@@ -1108,7 +1108,7 @@
       ],
       "mood_text": "Playful, educational, organic, friendly",
       "tone": "Warm educational colors",
-      "style_md": "Styles/warm--bloom-academy/style.md",
+      "style_md": "Styles/template/warm--bloom-academy/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1131,10 +1131,10 @@
       ],
       "mood_text": "Warm, fashionable, colorful, modern",
       "tone": "Warm base, colorful blocks",
-      "style_md": "Styles/warm--brand-refresh/style.md",
-      "build_script": "Styles/warm--brand-refresh/build.sh",
+      "style_md": "Styles/template/warm--brand-refresh/style.md",
+      "build_script": "Styles/template/warm--brand-refresh/build.sh",
       "pptx_files": [
-        "Styles/warm--brand-refresh/warm__brand_refresh.pptx"
+        "Styles/template/warm--brand-refresh/warm__brand_refresh.pptx"
       ]
     },
     {
@@ -1156,7 +1156,7 @@
       ],
       "mood_text": "Warm, cultural, human-centered, dynamic",
       "tone": "Blue to coral gradient",
-      "style_md": "Styles/warm--coral-culture/style.md",
+      "style_md": "Styles/template/warm--coral-culture/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1179,10 +1179,10 @@
       ],
       "mood_text": "Warm, sincere, natural, storytelling",
       "tone": "Warm brown + sage green + terracotta + sandy gold, overall earth tone palette",
-      "style_md": "Styles/warm--earth-organic/style.md",
-      "build_script": "Styles/warm--earth-organic/build.sh",
+      "style_md": "Styles/template/warm--earth-organic/style.md",
+      "build_script": "Styles/template/warm--earth-organic/build.sh",
       "pptx_files": [
-        "Styles/warm--earth-organic/warm__earth_organic.pptx"
+        "Styles/template/warm--earth-organic/warm__earth_organic.pptx"
       ]
     },
     {
@@ -1205,7 +1205,7 @@
       ],
       "mood_text": "Monumental, editorial, refined, typographic",
       "tone": "Warm paper with terracotta",
-      "style_md": "Styles/warm--monument-editorial/style.md",
+      "style_md": "Styles/template/warm--monument-editorial/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1231,10 +1231,10 @@
       ],
       "mood_text": "Warm, playful, organic, friendly",
       "tone": "Warm cream with coral, yellow, and teal accents",
-      "style_md": "Styles/warm--playful-organic/style.md",
-      "build_script": "Styles/warm--playful-organic/build.sh",
+      "style_md": "Styles/template/warm--playful-organic/style.md",
+      "build_script": "Styles/template/warm--playful-organic/build.sh",
       "pptx_files": [
-        "Styles/warm--playful-organic/Cat-Secret-Life.pptx"
+        "Styles/template/warm--playful-organic/Cat-Secret-Life.pptx"
       ]
     },
     {
@@ -1257,7 +1257,7 @@
       ],
       "mood_text": "Professional, warm, grounded, data-driven",
       "tone": "Muted corporate with sunset gradient accents",
-      "style_md": "Styles/warm--sunset-mosaic/style.md",
+      "style_md": "Styles/template/warm--sunset-mosaic/style.md",
       "build_script": null,
       "pptx_files": []
     },
@@ -1281,7 +1281,7 @@
       ],
       "mood_text": "Organic, vibrant, healthy, energetic",
       "tone": "Warm organic colors",
-      "style_md": "Styles/warm--vital-bloom/style.md",
+      "style_md": "Styles/template/warm--vital-bloom/style.md",
       "build_script": null,
       "pptx_files": []
     }
