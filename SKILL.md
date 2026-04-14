@@ -241,6 +241,7 @@ This skill covers the officecli CLI basics. For complex scenarios, load the dedi
 | **Presentations** | `officecli-pptx` | v1.0.23 | Create, read, edit .pptx — general slide decks |
 | **Pitch decks** | `officecli-pitch-deck` | v1.0.24 | Investor decks, product launches, sales decks with charts and stat callouts |
 | **Morph PPT** | `morph-ppt` | v1.0.24 | Morph-animated cinematic presentations |
+| **3D Morph PPT** | `morph-ppt-3d` | v1.0.39 | GLB 3D model presentations with cinematographic camera and Morph transitions |
 | **Excel** | `officecli-xlsx` | v1.0.23 | Create, read, edit .xlsx — financial models, trackers, formulas |
 | **Data dashboards** | `officecli-data-dashboard` | v1.0.24 | CSV/tabular data → Excel dashboards with KPI cards, charts, sparklines |
 
