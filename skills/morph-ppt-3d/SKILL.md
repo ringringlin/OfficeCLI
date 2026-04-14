@@ -8,6 +8,8 @@ description: 3D Morph PPT — extends morph-ppt with GLB model insertion, cinema
 This skill **extends** `morph-ppt`. All morph-ppt rules (naming, ghosting, design, verification) apply in full.
 This file covers **3D-specific additions** and an **enriched design system** combining morph-ppt aesthetics with concrete color palettes, font pairings, and layout quality guardrails.
 
+**Minimum officecli version:** `1.0.39` (3D bounding box auto-computation fix). Recommended: `1.0.43+` for stable name-based addressing in Phase 6 user adjustments.
+
 ---
 
 ## Use when
@@ -560,6 +562,76 @@ After standard morph verification, additionally check:
 - All models share the same `name` prop
 - Adjacent slides have model area ratio >= 1.5x or <= 0.67x
 - No two consecutive slides use the same layout pattern
+
+### Phase 6: Iterate (user adjustments)
+
+Users will often want to fine-tune after seeing the result. **Use stable name-based addressing instead of indexed paths** to avoid errors when shape order changes.
+
+#### Stable ID Addressing (officecli 1.0.33+)
+
+Instead of fragile index paths like `/slide[3]/model3d[1]`, use name-based selectors:
+
+```bash
+# ✅ RECOMMENDED — name-based (stable, won't break if shapes are added/removed)
+officecli set deck.pptx '/slide[3]/model3d[@name="!!model-hero"]' --prop roty=120
+
+# ⚠️ FRAGILE — index-based (breaks when shape order changes)
+officecli set deck.pptx '/slide[3]/model3d[1]' --prop roty=120
+```
+
+The 3D model is always named `!!model-hero` on every slide (per Morph requirement), so `@name="!!model-hero"` always works.
+
+#### "这页模型角度不对 / 换个视角"
+
+```bash
+officecli set deck.pptx '/slide[3]/model3d[@name="!!model-hero"]' --prop roty=120 --prop rotx=15
+```
+
+Quick reference for the user:
+> 当前是 roty=80（侧面）。你想要：
+> - **正面** → roty=0
+> - **3/4 视角** → roty=30-45
+> - **侧面** → roty=90
+> - **背面** → roty=180
+> - **俯视** → rotx=30
+> - **仰视** → rotx=-20
+
+#### "这页模型太大/太小了"
+
+```bash
+# Bigger
+officecli set deck.pptx '/slide[3]/model3d[@name="!!model-hero"]' --prop width=24cm --prop height=20cm
+# Smaller
+officecli set deck.pptx '/slide[3]/model3d[@name="!!model-hero"]' --prop width=12cm --prop height=10cm
+```
+
+Size tier reference:
+> - **特写充满画面** → 28-36cm (XL)
+> - **大气主视觉** → 18-24cm (L)
+> - **跟文字平衡** → 13-17cm (M)
+> - **角落小点缀** → 5-10cm (S)
+
+#### "模型位置挪一下"
+
+```bash
+officecli set deck.pptx '/slide[3]/model3d[@name="!!model-hero"]' --prop x=18cm --prop y=2cm
+```
+
+#### "某页文字内容跟模型不搭"
+
+Apply Content-Model Alignment rules:
+1. Check what angle the model is showing on that slide
+2. Rewrite the text to describe what the audience sees at that angle
+3. Use the title formula: `[What the audience sees] + [Why it matters]`
+
+For text shapes, use `@name="#sN-..."` selectors (also stable ID):
+```bash
+officecli set deck.pptx '/slide[3]/shape[@name="#s3-title"]' --prop text="新标题"
+```
+
+#### Batch adjustments
+
+For multiple changes, modify the build script's `model_shots` list and re-run. Re-running is more reliable than chained `set` commands because it avoids any state accumulation.
 
 ---
 
